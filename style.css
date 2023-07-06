@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+/* @media(max-width: 1440px){ */
+
+
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 40px 0 0 150px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+ margin: 50px 50px 0 0;
+
+}
+
+.nav li {
+  margin: 0 10px;
+}
+  
+
+
+h2 {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.about{
+  margin: 0 200px;
+}
+
+.about h3 {
+  font-weight: normal;
+}
+
+.about h4 {
+  font-weight: normal;
+}
+
+.container ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* padding: 50px; */
+  margin-left: 100px;
+  width: 100%;
+}
+
+.container li{
+  width: calc((100% - 5px - 5px )/ 4);
+  display: flex;
+  box-sizing: border-box;
+  
+}
+
+.container img {
+  width: 100%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 30px; */
+
+
+}
+
+.news  {
+ text-align: left;
+}
+
+.news li {
+list-style: none;
+border-top: 1px solid gainsboro;
+border-bottom: 1px solid gainsboro;
+padding: 5px 0;
+/* margin: 0 100px; */
+margin: 0;
+/* text-align: left; */
+}
+
+.contact{
+  width: 100%;
+}
+
+.contacts {
+  text-align: center;
+  
+}
+ 
+.name {
+  margin: 10px 2px;
+}
+
+.e-mail {
+  margin: 10px 2px;
+}
+
+.message {
+  margin: 10px 2px;
+}
+
+.button {
+text-align: center;
+margin: 50px;
+}
+
+button {
+ background-color: black;
+ color: white;
+ width: 200px;
+ height: 50px;
+ /* text-align: center; */
+ /* margin: 50px 0 0 600px; */
+}
+
+button:hover {
+  background-color: gray;
+  
+}
+/* } */
+/* タブレット版 */
+@media(max-width: 1100px) {
+
+
+
+h1 {
+  margin: 50px 0 0 20px;
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+}
+
+
+  .container ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+  }
+  .container li{
+    width: calc((100% - 5px )/ 3);
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container img {
+  width: 100%;
+  display: flex;
+}
+  
+}
+/* スマートフォン版 */
+@media(max-width: 700px) {
+  
+
+ * {
+  margin: 0;
+ }
+
+ body {
+  margin: 0;
+}
+  
+header {
+  display: block;
+}
+
+
+  h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 ;
+ } 
+ .nav ul{
+margin: 20px;
+display: flex;
+justify-content: flex-start;
+
+ }
+
+.nav li {
+  /* display: block; */
+  display: flex;
+  justify-content: space-between;
+  /* text-align: left; */
+}
+
+.nav img {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+
+.about {
+  margin: 5px;
+}
+ 
+h3 {
+  margin: 30px 0;
+}
+h4 {
+  margin: 30px 0;
+  width: 100%;
+}
+  
+.container {
+  margin: 0;
+}
+
+
+.container  ul{
+  margin: 0;
+  display: block
+}
+.container li {
+width: 100%;
+margin: 0 0 0 -40px;
+padding: 10px;
+box-sizing: border-box;
+display: block;
+
+
+}
+
+.container img {
+  width: 120%;
+  height: 250px;
+  /* display: block; */
+  
+  
+}
+
+.image img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  
+}
+
+.news {
+  width: 100%;
+}
+
+.news ul {
+  margin: 0 0 0 -20px;
+}
+
+.news li {
+  list-style: none;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  padding: 5px;
+  margin: 0;
+  /* width: 100%; */
+  }
+
+.contacts {
+  text-align: left;
+  margin: 5px 10px;
+  /* width: 100%; */
+  
+}
+
+.text{
+  width: 100%;
+}
+ }
